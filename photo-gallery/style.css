@@ -1,0 +1,37 @@
+body{
+  background: #1a1919;
+}
+#gallery-container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width:1178px ;
+  max-width:1178px ;
+  height:588px ;
+  max-height:588px ;
+  top:608px ;
+  left:-355px ;
+  gap:2px;
+  
+}
+
+.image-interaction{
+  position: relative;
+}
+
+.image{
+  width: 293px;
+  height:588px ;
+}
+.image-interaction :hover{
+  outline: 3px solid purple;
+}
+
+.overlay{
+  position: absolute;
+  top:0px;
+  width: 293px;
+  height: 588px; 
+}
+
